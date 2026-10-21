@@ -334,12 +334,12 @@ Depois do primeiro acesso: **DVRs → Novo dispositivo**, **Descobrir canais** e
 O servidor precisa alcançar cada DVR pela rede (VPN ou rotas entre unidades). Quando a volta do tráfego não passa pelo mesmo caminho — por exemplo, um DVR atrás de um roteador que só aceita respostas originadas nele — basta publicar as portas do DVR no IP do roteador da unidade. Exemplo em **MikroTik**:
 
 ```bash
-/ip firewall nat add chain=dstnat in-interface=wireguard-oracle dst-address=xxx.xxx.xxx.xxx \
-    protocol=tcp dst-port=80,554,37777 action=dst-nat to-addresses=xxx.xxx.xxx.x \
+/ip firewall nat add chain=dstnat in-interface=wireguard-oracle dst-address=IP_ROTEADOR \
+    protocol=tcp dst-port=80,554,37777 action=dst-nat to-addresses=IP_DVR \
     comment="CFTV -> DVR" place-before=0
 ```
 
-No sistema, o DVR é cadastrado com o IP do roteador (`192.168.1.254`), e a interface web do DVR também fica acessível por ele.
+No sistema, o DVR é cadastrado com o IP do roteador, e a interface web do DVR também fica acessível por ele.
 
 <p>&nbsp;</p>
 

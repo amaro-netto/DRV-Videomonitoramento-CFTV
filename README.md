@@ -13,7 +13,7 @@
 <p>&nbsp;</p>
 
 <div align="center">
-  <img src="frontend/public/favicon.svg" width="110" alt="DRV Logo">
+  <img src="img/favicon.svg" width="110" alt="DRV Logo">
   <h3>Todos os DVRs Intelbras das unidades em um único mural, no navegador.</h3>
 </div>
 
@@ -412,11 +412,11 @@ A solução combinou **WebRTC com fallback para HLS**, uso inteligente dos strea
 
 | Mural com listas e seleção por unidade | Gravações com linha do tempo |
 | :---: | :---: |
-| <img src="docs/img/mural.png" alt="Mural de câmeras"> | <img src="docs/img/gravacoes.png" alt="Gravações"> |
+| <img src="img/mural.png" alt="Mural de câmeras"> | <img src="img/gravacoes.png" alt="Gravações"> |
 | **Saúde dos DVRs** | **Qualidade de vídeo pelo app** |
-| <img src="docs/img/saude.png" alt="Saúde dos DVRs"> | <img src="docs/img/qualidade.png" alt="Qualidade de vídeo"> |
+| <img src="img/saude.png" alt="Saúde dos DVRs"> | <img src="img/qualidade.png" alt="Qualidade de vídeo"> |
 | **Usuários e permissões por câmera** | **Login** |
-| <img src="docs/img/usuarios.png" alt="Usuários e permissões"> | <img src="docs/img/login.png" alt="Login"> |
+| <img src="img/usuarios.png" alt="Usuários e permissões"> | <img src="img/login.png" alt="Login"> |
 
 ---
 
